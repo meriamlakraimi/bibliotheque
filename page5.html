@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'inscription</title>
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+<body>
+
+   
+<table align="center">
+<tr align="center">
+    <td style="background-color: rgb(173, 89, 19);"> <h3 style="color: bisque; width: 30cm;" align="center">merci de bien vouloir remplir ce formulaire !</h3></td>
+</tr>
+</table>
+<hr>
+
+
+<br><br><br>
+
+
+
+
+<center>
+    <table >
+       <tr >
+           <td>
+    
+           <a href="page1.html">
+               <button>
+              ACCUEIL
+               </button>
+              </a>
+                 
+       </td>
+    <td>
+       <a href="page2.html">
+           <button >
+        ABONNEMENT
+           </button>
+          </a>
+    </td>
+    
+    <td>
+       <a href="page3.html">
+           <button >
+          REPARTITION HORAIRE
+           </button>
+          </a>
+    </td>
+    
+    
+    <td>
+    
+       <a href="page4.html">
+           <button >
+       LIVRES
+           </button>
+          </a>
+    </td>
+    
+    
+    
+    <td>
+    
+    
+    
+       <a href="page5.html">
+           <button >
+         FORMULAIRE
+           </button>
+          </a>
+    </td>
+    
+    
+    
+    </tr>
+    </table></center>
+    
+    
+    
+
+
+
+  <br><br><br>
+
+
+<table align="center"><tr><th style="background-color: rgb(211, 180, 134); color: rgb(119, 76, 12); height: 1%;"><h4> informations personnelles:</h4></th></tr></table>
+
+<br><br><br><br>
+
+
+
+<table align="center" border="1" style="background-color: black;">
+    <tr style="background-color: white;">
+        <td>
+
+
+
+
+            <form action="forum.php"  method="post">
+
+ 
+                 <label for="nom PRENOM">nom PRENOM:</label>
+                
+                 <input type="text"   id="nom PRENOM" name="entrer votre nom " placeholder="ex: Meriam Lakraimi ">
+                 
+                 <br><br>
+                
+                 <label for="ville-pays">ville-pays:</label>
+                
+                 <input type="text"   id="ville-pays" name="ville-pays " placeholder="ex: Maroc-Casablanca ">
+                
+                 <br><br>
+                
+                
+                 <label for="sexe">sexe:</label>
+                
+                 <input type="radio"   id="sexe" name="sexe">
+                 <label for="sexe">masculin</label>
+                
+                 <input type="radio"   id="sexe" name="sexe">
+                 <label for="sexe">feminin</label>
+                
+                 <input type="radio"   id="sexe" name="sexe">
+                 <label for="sexe">indetermine</label>
+                
+                 <br><br>
+                
+                 <label for="age">age:</label>
+                <select name="age" id="age">
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                
+                
+
+                </select>
+                
+                <br><br>
+                
+                <table><tr>
+                    <td>
+                
+                        <table>
+                            <tr style="background-color: rgb(230, 213, 121);"><td>
+                        
+                                <h4> sondage:</h4>
+                        
+                                <p>que pensez vous de l'ensemble des themes disponibles a la bibliotheque?:</p>
+                                
+                                <input type="checkbox"  id="sondage" name="sondage">
+                                <label for="sondage">complet </label>
+                                
+                                
+                                <input type="checkbox"  id="sondage" name="sondage">
+                                <label for="sondage">incomplet </label>
+                                
+                                
+                                <input type="checkbox"  id="sondage" name="sondage">
+                                <label for="sondage">a ameliorer </label>
+                                
+                                <br><br>
+                                
+                                <table><tr>
+                                    <td>
+                                        <p>le site est:</p>
+                                </td>
+                                <td>
+                                    <select name="site" id="site" multiple>
+                                
+                                        <option value="sympa">sympa</option>
+                                        <option value="moyen">moyen</option>
+                                        <option value="a revoir">a revoir</option>    
+                                       </select>
+                                    
+                            
+                                </td>
+                            </tr></table>
+                                
+                                
+                             
+                              
+                        
+                            </td></tr>
+                        </table>
+                
+                
+                    </td>
+                
+                
+                
+                    <td>
+                
+                        <table style="background-color: rgb(185, 140, 14);">
+                            <tr> 
+                                <th style="background-color: rgb(185, 140, 14);" color="black" >des suggestions?</th>
+                            </tr>
+                            <tr>
+                            <td style="background-color: white; color: black;"><textarea name="message" id="message" cols="30" rows="10"  placeholder="taper ici toute remarque que vous jugerez utile ..."></textarea>
+                            </td>
+                            </tr>
+                            </table>
+                             
+                            <input type="reset" value="effacer">
+                             
+                            <input type="submit" value="envoyer">
+                            
+                    </td>
+                </tr></table>
+                
+                
+                </form>
+                
+        </td>
+    </tr>
+</table>
+
+
+<br><br><br><br><br>
+
+<hr>
+
+
+
+</body>
+</html>
